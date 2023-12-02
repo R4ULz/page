@@ -71,7 +71,7 @@
     }
     footer .container .informacoes{
         position: relative;
-        left: 60px;
+        left: 130px;
         top: -60px;
         width: 150px;
         display: flex;
@@ -85,9 +85,7 @@
     }
 
     footer .container .contato{
-        position: relative;
-        left: 20px;
-        top: -58px;
+        display: none;
     }
     footer .container .contato ul li{
         position: relative;
