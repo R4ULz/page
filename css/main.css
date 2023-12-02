@@ -39,6 +39,15 @@
         position: relative;
         top: 400px;
     }
+    .cursos .textin{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    .cursos .textin p{
+        font-size: 1.1rem;
+        text-align: center;
+    }
     .imagens{
         position: relative;
         top: 400px;
