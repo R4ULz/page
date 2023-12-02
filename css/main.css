@@ -1,0 +1,371 @@
+@media (max-width: 950px) {
+    
+    .navbar{
+        position: relative;
+        left: 50px;
+    }
+    .home{
+        height: 300px;
+    }
+    .home .col-md-6 {
+        width: 100%;
+        
+    }
+    .home .text-home h2{
+        position: relative;
+        bottom: 100px;
+        left: 9%
+    }
+    .home .carroca{
+        display: none;
+    }
+
+    .second {
+        height: 800px;
+    }
+
+    .second .item{
+        width: 100%;
+    }
+    .quarta{
+        position: relative;
+        top: 500px;
+    }
+    .quarta .div-video video{
+        position: relative;
+        top: -500px;
+    }
+    .cursos{
+        position: relative;
+        top: 400px;
+    }
+    .imagens{
+        position: relative;
+        top: 400px;
+    }
+    .sobre{
+        position: relative;
+        top: 400px;
+    }
+    footer{
+        position: relative;
+        top: 750px;
+        height: 00px;
+    }
+    footer .container .row{
+        height: 200px;
+        width: 100px;
+    }
+    footer .container .logo svg{
+        height: 80px;
+    }
+    footer .container .informacoes{
+        position: relative;
+        left: 60px;
+        top: -60px;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    footer .container .informacoes p{
+        width: 100px;
+        text-align: center;
+    }
+    footer .container .contato{
+        position: relative;
+        left: 20px;
+        top: -58px;
+    }
+    footer .container .contato ul li{
+        position: relative;
+        left: -40px;
+    }
+    footer .container .contato ul li p{
+        text-align: justify;
+        position: relative;
+        left: 25px;
+}
+    footer .container .contato p{
+        width: 150px;
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+body{
+    width: 100%;
+    box-sizing: content-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2020;
+    display: flex;
+    justify-content: center;
+    background: #4481EB;
+}
+
+.navbar{
+    font-size: 1.1em;
+    width: 100vw;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+}
+
+.home{
+    height: 570px;
+    background: linear-gradient(180deg, #4481EB 17.71%, rgba(4, 190, 254, 0.83) 63.02%, rgba(4, 190, 254, 0.51) 99.94%, rgba(4, 190, 254, 0.00) 99.95%, rgba(0, 122, 239, 0.29) 99.96%);
+}
+.home .row{
+    position: relative;
+    top: 200px;
+}
+.home .row .text-home{
+    color: white;
+    text-align: center;
+    position:relative;
+    right: 2rem;
+}
+.home .carroca{
+    position:relative;
+    bottom: 90px;
+}
+.home .carroca video{
+    height: 20rem;
+}
+.second{
+    height: 25rem;
+}
+.fora{
+    display: flex;
+    justify-content: center;
+}
+.services{
+    margin-top: 25px;
+    display: block;
+}
+.barrinha{
+    height: 2px;
+    background-color: #04BEFE26;
+}
+.second .modulo{
+    text-align: center;
+    justify-content: center;
+}
+.second .modulo .col-md-4{
+    display: flex;
+    justify-content: center;
+}
+.second .modulo .item{
+    margin: 20px 10px 0px 10px;
+    background-color: #77C9EC4F;
+    width: 290px;
+    padding: 10px;
+}
+.second .modulo .item h4{
+    width: 270px;
+}
+.second .modulo .item p{
+    font-size: 1.2rem;
+    
+}
+.cursos .textin{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.cursos .textin p{
+    font-size: 1.2rem;
+}
+.cursos .container .row{
+    display: flex;
+    justify-content: center;
+}
+.cursos .quadradin {
+    max-width: 20rem;
+    display: block;
+    text-align: center;
+    box-shadow: 4px 4px 2px 0px rgba(0,0,0,0.57);
+    -webkit-box-shadow: 4px 4px 2px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 4px 4px 2px 0px rgba(0,0,0,0.57);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 0px 30px 30px;
+}
+.cursos .quadradin .img-curso{
+    width: 20rem;
+    display: flex;
+    margin: 5px;
+}
+.cursos .quadradin .img-curso img{
+    width: 17rem;
+}
+.cursos .quadradin .btn-vejamais{
+    border-radius: 20px;
+    padding: 0px 10px;
+    background-color: #4379d4;
+    border: none;
+    color: white;
+    margin: 5px;
+}
+.cursos .modal{
+    margin-top: 200px;
+}
+.cursos .modal a{
+    text-decoration: none;
+    color: white;
+}
+.imagens{
+    background-color: #464749;
+    height: 20rem;
+}
+.imagens .carrosel{
+    justify-content: center;
+    display: flex;
+}
+.owl-prev, .owl-next{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 200px;
+}
+
+.owl-prev {
+    float: left;
+}
+.owl-next{
+    float: right;
+}
+.imagens .carrosel .item{
+    height: 350px;
+    width: 20rem;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    left: 15%;
+    padding: 0px 10px;
+}
+.imagens .carrosel .item img{
+    height: 200px;
+    width: 15rem;
+}
+
+
+.sobre{
+    visibility: hidden;
+    height: 500px;
+    
+}
+.sobre .barra{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+}
+.sobre .barra .barrinha{
+    height: 2px;
+    width: 7%;
+    background-color: #04BEFE26;
+    display: block;
+    justify-content: center;
+}
+
+
+.title-main{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+}
+
+.conteiner-main{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    height: 500px;
+}
+.hiddenEsq{
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 1.5s;
+}
+.hiddenDir{
+    opacity: 0;
+    transform: translateX();
+    transition: all 1.5s;
+}
+.showDireita{
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 2s;
+}
+.showEsquerda{
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 2s;
+}
+
+.text-main {
+    width: 40rem;
+    padding: 20px;
+    border-radius: 20px;
+}
+.text-main p{
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 34px; /* 121.429% */
+    text-align: justify;
+    font-style: bolder;
+   
+}
+.sobre .div-video video{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.img-main img{
+    margin-right: 20px;
+}
+.sobre .row-about{
+    position: relative;
+    top: 50px;
+}
+
+footer{
+    background-color: #172f58;
+    height: 250px;
+    color: white
+}
+footer .container .row{
+    width: 100%;
+}
+.container .logo svg{
+    position: relative;
+    top: 20px;
+    left: -80px;
+    height: 200px;
+}
+.container .informacoes{
+    position: relative;
+    top: 30px;
+    height: 200px;
+
+}
+.container .contato{
+    position: relative;
+    top: 30px;
+    height: 200px;
+    width: 100px;
+
+}
+footer .container .contato ul{
+    list-style: none;
+}

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Libras e Paixão</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="feijao">
+        <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+            viewBox="0 0 41 48" fill="none">
+            <path
+              d="M12.9994 20.0913L21.5949 15.3446L21.853 6.20706C21.853 6.20706 23.9006 3.10707 27.3621 5.09825C30.4474 6.87298 28.6222 10.5385 28.6222 10.5385C28.6222 10.5385 26.4379 13.2514 25.1453 14.4086C21.7277 17.4682 14.6125 20.3595 9.72612 23.8991C3.63354 28.3125 1.94592 31.0261 1.94592 31.0261C1.94592 31.0261 -0.64588 33.5949 0.152841 38.277C0.881756 42.55 5.37091 46.2421 5.37091 46.2421C5.37091 46.2421 8.6483 48.6534 8.12998 47.7431C7.63506 46.874 7.04408 45.981 7.04408 45.981C7.04408 45.981 4.31899 41.5326 5.15595 38.4205C5.99374 35.3053 10.3791 31.8594 10.3791 31.8594L19.7091 25.5304C19.7091 25.5304 30.6498 19.4995 33.6024 14.3491C35.7078 10.6764 34.6768 7.09708 34.6768 7.09708C34.6768 7.09708 34.0596 3.23074 29.7332 1.13029C24.8057 -1.26202 20.384 0.886725 20.384 0.886725L15.4213 4.52591L12.9994 20.0913Z"
+              fill="white" />
+            <path
+              d="M20.8957 26.411L10.733 33.2078L9.07664 43.1374C9.07664 43.1374 14.1345 41.0577 16.7979 41.0873C19.4577 41.1168 24.461 43.3052 24.461 43.3052C24.461 43.3052 30.0277 44.6783 32.7993 44.29C36.2987 43.7998 37.0942 42.4941 37.0942 42.4941C37.0942 42.4941 38.5944 40.8399 39.1052 39.8617C39.821 38.4909 40.5192 35.4455 40.5192 35.4455C40.5192 35.4455 40.8714 33.8915 40.3251 33.5929C40.0349 33.4342 38.8348 34.8301 38.8348 34.8301C38.8348 34.8301 35.2541 37.2283 33.1896 37.5873C31.3818 37.9016 27.7176 36.9839 27.7176 36.9839L20.6149 34.2707L20.8957 26.411Z"
+              fill="white" />
+          </svg>Libras e Paixão</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+          aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="arroz">
+        <div class="collapse navbar-collapse float-right" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" id="btn-home" href="#home">Home <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Notícias</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" id="btn-cursos" href="#cursin">Cursos</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" id="btn-about" href="#about">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://instagram.com/librasepaixao?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"
+                rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                  viewBox="0 0 22 22" fill="none">
+                  <path
+                    d="M11 1.98202C13.9371 1.98202 14.285 1.9932 15.4449 2.04612C16.5174 2.09507 17.0998 2.27427 17.4875 2.42487C18.0009 2.62442 18.3674 2.86282 18.7523 3.24773C19.1372 3.63263 19.3756 3.99911 19.5751 4.51251C19.7257 4.90017 19.9049 5.48261 19.9539 6.55506C20.0068 7.71501 20.018 8.06288 20.018 11C20.018 13.9372 20.0068 14.285 19.9539 15.4449C19.9049 16.5174 19.7257 17.0999 19.5751 17.4875C19.3756 18.0009 19.1372 18.3674 18.7523 18.7523C18.3674 19.1372 18.0009 19.3756 17.4875 19.5751C17.0998 19.7258 16.5174 19.905 15.4449 19.9539C14.2852 20.0068 13.9373 20.018 11 20.018C8.06266 20.018 7.71479 20.0068 6.55506 19.9539C5.48257 19.905 4.90013 19.7258 4.51251 19.5751C3.99906 19.3756 3.63259 19.1372 3.24768 18.7523C2.86278 18.3674 2.62437 18.0009 2.42487 17.4875C2.27423 17.0999 2.09503 16.5174 2.04608 15.445C1.99316 14.285 1.98198 13.9372 1.98198 11C1.98198 8.06288 1.99316 7.71501 2.04608 6.5551C2.09503 5.48261 2.27423 4.90017 2.42487 4.51251C2.62437 3.99911 2.86278 3.63263 3.24768 3.24773C3.63259 2.86282 3.99906 2.62442 4.51251 2.42487C4.90013 2.27427 5.48257 2.09507 6.55501 2.04612C7.71496 1.9932 8.06284 1.98202 11 1.98202ZM11 0C8.01254 0 7.63798 0.0126627 6.46471 0.0661955C5.29385 0.119641 4.49426 0.305565 3.79454 0.577508C3.07119 0.85862 2.45775 1.23475 1.84623 1.84627C1.2347 2.45779 0.858576 3.07123 0.577464 3.79458C0.305521 4.49431 0.119597 5.29389 0.0661518 6.46476C0.0126191 7.63798 0 8.01258 0 11C0 13.9875 0.0126191 14.3621 0.0661518 15.5353C0.119597 16.7062 0.305521 17.5057 0.577464 18.2055C0.858576 18.9288 1.2347 19.5423 1.84623 20.1538C2.45775 20.7653 3.07119 21.1414 3.79454 21.4225C4.49426 21.6945 5.29385 21.8804 6.46471 21.9338C7.63798 21.9874 8.01254 22 11 22C13.9874 22 14.362 21.9874 15.5352 21.9338C16.7061 21.8804 17.5057 21.6945 18.2054 21.4225C18.9288 21.1414 19.5422 20.7653 20.1537 20.1538C20.7653 19.5423 21.1414 18.9288 21.4225 18.2055C21.6944 17.5057 21.8804 16.7062 21.9338 15.5353C21.9873 14.3621 22 13.9875 22 11C22 8.01258 21.9873 7.63798 21.9338 6.46476C21.8804 5.29389 21.6944 4.49431 21.4225 3.79458C21.1414 3.07123 20.7653 2.45779 20.1537 1.84627C19.5422 1.23475 18.9288 0.85862 18.2054 0.577508C17.5057 0.305565 16.7061 0.119641 15.5352 0.0661955C14.362 0.0126627 13.9874 0 11 0ZM11 5.35136C7.88032 5.35136 5.35131 7.88036 5.35131 11C5.35131 14.1197 7.88032 16.6487 11 16.6487C14.1196 16.6487 16.6486 14.1197 16.6486 11C16.6486 7.88036 14.1196 5.35136 11 5.35136ZM11 14.6667C8.97495 14.6667 7.33329 13.0251 7.33329 11C7.33329 8.97499 8.97495 7.33333 11 7.33333C13.025 7.33333 14.6667 8.97499 14.6667 11C14.6667 13.0251 13.025 14.6667 11 14.6667ZM18.1918 5.12819C18.1918 5.85721 17.6008 6.44821 16.8718 6.44821C16.1428 6.44821 15.5518 5.85721 15.5518 5.12819C15.5518 4.39916 16.1428 3.80821 16.8718 3.80821C17.6008 3.80821 18.1918 4.39916 18.1918 5.12819Z"
+                    fill="white" />
+                </svg></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="home" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-home">
+          <h2>EQUIPE VOLTADA À CRIAÇÃO DE CONTEÚDO DE EVENTOS E PALESTRAS EM LIBRAS</h2>
+        </div>
+        <div class="col-md-6 carroca">
+          <div class="item">
+            <video src="videos/O que é o site Libras e Paixão .mp4" controls loop muted autoplay>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="second">
+    <div class="fora">
+      <div class="services">
+        <h2>Nossa Missão</h2>
+        <div class="barrinha"></div>
+      </div>
+    </div>
+    <div class="container modulo">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="46" viewBox="0 0 40 46" fill="none">
+              <path
+                d="M8.57143 46C3.83929 46 0 42.1367 0 37.375V8.625C0 3.86328 3.83929 0 8.57143 0H34.2857H37.1429C38.7232 0 40 1.28477 40 2.875C40 4.46523 38.7232 5.75 37.1429 5.75V11.5C38.7232 11.5 40 12.7848 40 14.375V43.125C40 44.7152 38.7232 46 37.1429 46H34.2857H8.57143ZM8.57143 11.5H31.4286V5.75H8.57143C6.99107 5.75 5.71429 7.03477 5.71429 8.625C5.71429 10.2152 6.99107 11.5 8.57143 11.5ZM11.4286 33.0625C11.4286 33.8531 12.0714 34.5 12.8571 34.5H30C30.7857 34.5 31.4286 33.8531 31.4286 33.0625C31.4286 32.2719 30.7857 31.625 30 31.625H12.8571C12.0714 31.625 11.4286 32.2719 11.4286 33.0625ZM12.8571 28.75H30C30.7857 28.75 31.4286 28.1031 31.4286 27.3125C31.4286 26.5219 30.7857 25.875 30 25.875H12.8571C12.0714 25.875 11.4286 26.5219 11.4286 27.3125C11.4286 28.1031 12.0714 28.75 12.8571 28.75Z"
+                fill="black" />
+            </svg>
+            <h4>Buscamos Inclusão</h4>
+            <p>Evidenciar a comunidade surda, para que a Inclusão seja concretizada</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="46" viewBox="0 0 40 46" fill="none">
+              <path
+                d="M8.57143 46C3.83929 46 0 42.1367 0 37.375V8.625C0 3.86328 3.83929 0 8.57143 0H34.2857H37.1429C38.7232 0 40 1.28477 40 2.875C40 4.46523 38.7232 5.75 37.1429 5.75V11.5C38.7232 11.5 40 12.7848 40 14.375V43.125C40 44.7152 38.7232 46 37.1429 46H34.2857H8.57143ZM8.57143 11.5H31.4286V5.75H8.57143C6.99107 5.75 5.71429 7.03477 5.71429 8.625C5.71429 10.2152 6.99107 11.5 8.57143 11.5ZM11.4286 33.0625C11.4286 33.8531 12.0714 34.5 12.8571 34.5H30C30.7857 34.5 31.4286 33.8531 31.4286 33.0625C31.4286 32.2719 30.7857 31.625 30 31.625H12.8571C12.0714 31.625 11.4286 32.2719 11.4286 33.0625ZM12.8571 28.75H30C30.7857 28.75 31.4286 28.1031 31.4286 27.3125C31.4286 26.5219 30.7857 25.875 30 25.875H12.8571C12.0714 25.875 11.4286 26.5219 11.4286 27.3125C11.4286 28.1031 12.0714 28.75 12.8571 28.75Z"
+                fill="black" />
+            </svg>
+            <h4>Informativos</h4>
+            <p>Informar sobre o crescimento da comunidade surda na sociedade </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="46" viewBox="0 0 40 46" fill="none">
+              <path
+                d="M8.57143 46C3.83929 46 0 42.1367 0 37.375V8.625C0 3.86328 3.83929 0 8.57143 0H34.2857H37.1429C38.7232 0 40 1.28477 40 2.875C40 4.46523 38.7232 5.75 37.1429 5.75V11.5C38.7232 11.5 40 12.7848 40 14.375V43.125C40 44.7152 38.7232 46 37.1429 46H34.2857H8.57143ZM8.57143 11.5H31.4286V5.75H8.57143C6.99107 5.75 5.71429 7.03477 5.71429 8.625C5.71429 10.2152 6.99107 11.5 8.57143 11.5ZM11.4286 33.0625C11.4286 33.8531 12.0714 34.5 12.8571 34.5H30C30.7857 34.5 31.4286 33.8531 31.4286 33.0625C31.4286 32.2719 30.7857 31.625 30 31.625H12.8571C12.0714 31.625 11.4286 32.2719 11.4286 33.0625ZM12.8571 28.75H30C30.7857 28.75 31.4286 28.1031 31.4286 27.3125C31.4286 26.5219 30.7857 25.875 30 25.875H12.8571C12.0714 25.875 11.4286 26.5219 11.4286 27.3125C11.4286 28.1031 12.0714 28.75 12.8571 28.75Z"
+                fill="black" />
+            </svg>
+            <h4>Transparência no ensino</h4>
+            <p>Disponibilizar conteúdos, tranformando Conhecimento em Sabedoria, para Surdos e Interprétes </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cursos">
+    <div class="fora" id="cursin">
+      <div class="services">
+        <h2>Cursos</h2>
+        <div class="barrinha"></div>
+      </div>
+    </div>
+    <div class="textin">
+      <p>Aqui estão alguns cursos que recomendamos para quem quiser ingressar na nossa comunidade e entender melhor
+        sobre Libras </p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 quadradin">
+          <div class="img-curso"><img src="img/imagem1.webp" height="200px" width="300px"></div>
+          <h4>Curso para Interprete</h4>
+          <button class="btn btn-vejamais" data-toggle="modal" data-target="#modalEx1">Veja mais</button>
+          <!-- modal -->
+          <div class="modal fade" id="modalEx1" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Curso para interpretes</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Uma perspectiva histórica sobre os surdos na sociedade; <br> A educação dos surdos em uma
+                    <br>perspectiva histórico-social: oralismo versus bilinguismo.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary"><a
+                      href="https://www.portalpos.com.br/o-tradutor-interprete-de-libras-formacao-e-pratica-anhanguera-extensao/p?gad_source=1&gclid=CjwKCAiA9ourBhAVEiwA3L5RFriCw8jXJqof6x5Hj9BXvsdoRPpmaTMcgJ9I_yVZEj-4UlET3pY-hhoCiLUQAvD_BwE"
+                      target="_blank">Ir para o site do curso</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 quadradin">
+          <div class="img-curso"><img src="img/imagem4.jpg" height="200px" width="300px"></div>
+          <h4>Curso Libras-Anhanguera</h4>
+          <button class="btn btn-vejamais" data-toggle="modal" data-target="#modalEx2">Veja mais</button>
+          <!-- modal -->
+          <div class="modal fade" id="modalEx2" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Curso Libras-Anhanguera</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>O curso de Comunicação em Libras da Anhanguera proporciona a você ter o necessário para se
+                    comunicar com os indivíduos surdos, além de incluí-la nos âmbitos da sociedade</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary"><a
+                      href="https://matricula.anhanguera.com/ead/curso-livre/comunicacao-em-libras/?utm_source=google&utm_medium=search&utm_campaign=rv_midia&utm_cont=libras&campaignid=20628239996&hsa_grp=156600165562&ad_group_ad.ad_id=678517540953&sellerId=7a9f9437-5d37-4dee-ace7-f8df61714f7d&gad_source=1&gclid=CjwKCAiA9ourBhAVEiwA3L5RFsCxY6aZoFBU3qz_ftvx0kOXRLSntC23YFjsT_4-0MJHxao5t0q5ABoC9K0QAvD_BwE"
+                      target="_blank">Ir para o site do curso</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 quadradin">
+          <div class="img-curso"><img src="img/imagem3.jpg" height="200px" width="300px"></div>
+          <h4>Curso de Libras Avançado</h4>
+          <button class="btn btn-vejamais" data-toggle="modal" data-target="#modalEx3">Veja mais</button>
+          <!-- modal -->
+          <div class="modal fade" id="modalEx3" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Curso de Libras Avançado</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>O curso de Libras avançado tem a finalidade de reunir informações para que os interessados sobre a
+                    temática possam estudar e aproveitar as principais características</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary"><a
+                      href="https://www.portaleduca.com.br/cursos/libras-avancado?gad_source=1&gclid=CjwKCAiA9ourBhAVEiwA3L5RFkEGZ5jqqjVY_7py0Ft-V5vCfFToG1MP_CMAMROsBvuUGmyUvq7xfxoChCEQAvD_BwE"
+                      target="_blank">Ir para o site do curso</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 quadradin">
+          <div class="img-curso"><img src="img/imagem2.jpg" height="200px" width="300px"></div>
+          <h4>Curso de Libras-Gratuito</h4>
+          <button class="btn btn-vejamais" data-toggle="modal" data-target="#modalEx4">Veja mais</button>
+          <!-- modal -->
+          <div class="modal fade" id="modalEx4" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Curso de Libras-Gratuito</h5>
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Um conteúdo prático para que você possa utilizar os sinais no seu dia a dia, mesmo que você não
+                    saiba nada de Libras</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary"><a
+                      href="https://academiadelibras.com/curso-de-libras-gratuito/?src=inf-adw2d&gad_source=1&gclid=CjwKCAiA9ourBhAVEiwA3L5RFu0bNePbDRBaMEKEXlJ1OtItIlzm7Gf5s11ILD8jT3mM-k2nkrJVYBoCO_8QAvD_BwE"
+                      target="_blank">Ir para o site do curso</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 quadradin">
+          <div class="img-curso"><img src="img/imagem5.jpg" height="200px" width="300px"></div>
+          <h4>Central de libras</h4>
+          <button class="btn btn-vejamais" data-toggle="modal" data-target="#modalEx5">Veja mais</button>
+          <!-- modal -->
+          <div class="modal fade" id="modalEx5" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Central de libras</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>A IBT libras oferece os melhores serviços de interpretação e tradução de libras, para empresas,
+                    instituições de ensino, feiras temáticas e muito mais.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary"><a
+                      href="https://ibtlibras.com.br/?gclid=CjwKCAiAvJarBhA1EiwAGgZl0JFhsMwe33CSnKBXhra8mmxF7NTSpd1AxrNdx1YhLphPnLvcKWU4VxoC8KMQAvD_BwEhttps://ibtlibras.com.br/?gclid=CjwKCAiAvJarBhA1EiwAGgZl0JFhsMwe33CSnKBXhra8mmxF7NTSpd1AxrNdx1YhLphPnLvcKWU4VxoC8KMQAvD_BwE"
+                      target="_blank">Ir para o site do curso</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 quadradin">
+          <div class="img-curso"><img src="img/imagem6.jpg" height="200px" width="300px"></div>
+          <h4>Curso Libras na prática</h4>
+          <button class="btn btn-vejamais" data-toggle="modal" data-target="#modalEx6">Veja mais</button>
+          <!-- modal -->
+          <div class="modal fade" id="modalEx6" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Curso Libras na prática</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Aborda a cultura e a história dos surdos, o vocabulário, a gramática da Libras e muito mais. Sobre
+                    a carga horária: O curso possui 80 horas de carga horária.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary"><a
+                      href="https://servicos.terra.com.br/cursos-online/educacao-e-pedagogia/libras-pratica/?&cdConvenio=CVTR00001843&gad_source=1&gclid=CjwKCAiA9ourBhAVEiwA3L5RFnt6svnY__yD56j6474Pgc9Xr9eYy2HeZtNn2bx5HCeVVaGCd52RchoCypsQAvD_BwE"
+                      target="_blank">Ir para o site do curso</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="imagens">
+    <div class="carrosel">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="img/3.webp" alt="">
+          <p>Texto sobre a palestra</p>
+        </div>
+        <div class="item">
+          <img src="img/3.webp" alt="">
+          <p>Texto sobre a palestra</p>
+        </div>
+        <div class="item">
+          <img src="img/3.webp" alt="">
+          <p>Texto sobre a palestra</p>
+        </div>
+        <div class="item">
+          <img src="img/3.webp" alt="">
+          <p>Texto sobre a palestra</p>
+        </div>
+        <div class="item">
+          <img src="img/3.webp" alt="">
+          <p>Texto sobre a palestra</p>
+        </div>
+        <div class="item">
+          <img src="img/3.webp" alt="">
+          <p>Texto sobre a palestra</p>
+        </div>
+        <div class="item">
+          <img src="img/3.webp" alt="">
+          <p>Texto sobre a palestra</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sobre">
+    <div class="title-main" id="about">
+      <p>sobre nós</p>
+    </div>
+    <div class="barra">
+      <div class="barrinha"></div>
+    </div>
+    <div class="container">
+      <div class="row row-about">
+        <div class="col-md-6 text-main hiddenEsq">
+          <p>O Libras & Paixão nasceu do compromisso de criar um ambiente inclusivo e acolhedor para a comunidade surda
+            e amantes da Lingua Brasileira de Sinais (Libras). Somos uma plataforma dedicada a promover a
+            acessibilidade, compartilhar notícias, aulas interativas e construir uma comunidade vibrante em torno da
+            riqueza da Libras. Nós acreditamos na força da linguagem para unir pessoas. Junte-se a nós nessa jornada de
+            aprenidzado, inclusão e paixão pela riqueza de Libras.</p>
+        </div>
+        <div class="col-md-6 img-main hiddenDir">
+          <div class="div-video">
+            <video src="videos/video_sobre_nos.mp4" controls alt="video sobre nós" muted autoplay loop></video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 logo">
+          <svg width="201" height="238" viewBox="0 0 201 238" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M64.3078 99.3913L106.83 75.9092L108.106 30.7062C108.106 30.7062 118.236 15.3706 135.36 25.2209C150.622 34.0005 141.593 52.1336 141.593 52.1336C141.593 52.1336 130.788 65.5545 124.393 71.2789C107.486 86.4148 72.2878 100.718 48.1149 118.228C17.9751 140.061 9.62643 153.485 9.62643 153.485C9.62643 153.485 -3.19514 166.193 0.756118 189.355C4.36204 210.494 26.5698 228.759 26.5698 228.759C26.5698 228.759 42.7829 240.687 40.2188 236.184C37.7704 231.884 34.8469 227.467 34.8469 227.467C34.8469 227.467 21.366 205.461 25.5064 190.065C29.6509 174.655 51.345 157.607 51.345 157.607L97.5003 126.298C97.5003 126.298 151.624 96.4636 166.23 70.9844C176.646 52.8161 171.545 35.109 171.545 35.109C171.545 35.109 168.492 15.9824 147.089 5.59149C122.713 -6.24318 100.839 4.3866 100.839 4.3866L76.2885 22.3896L64.3078 99.3913Z" fill="white"/>
+            <path d="M103.37 130.655L53.0959 164.278L44.902 213.4C44.902 213.4 69.9231 203.112 83.099 203.258C96.2569 203.404 121.008 214.23 121.008 214.23C121.008 214.23 148.546 221.022 162.257 219.102C179.569 216.676 183.504 210.217 183.504 210.217C183.504 210.217 190.926 202.034 193.453 197.195C196.993 190.414 200.447 175.348 200.447 175.348C200.447 175.348 202.19 167.661 199.487 166.183C198.051 165.398 192.115 172.304 192.115 172.304C192.115 172.304 174.401 184.167 164.188 185.943C155.245 187.498 137.118 182.958 137.118 182.958L101.982 169.536L103.37 130.655Z" fill="white"/>
+          </svg>
+        </div>
+        <div class="col-md-4 informacoes">
+          <p>Informações</p>
+        </div>
+        <div class="col-md-4 contato">
+          <p>Contato</p>
+          <ul>
+            <li><p><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8992 0C15.9946 0.414517 18.7986 1.75795 21.0148 3.88547C23.1165 5.90811 24.4951 8.45514 24.9997 11.2619L23.0801 11.5765C22.6483 9.15432 21.4569 6.95189 19.6414 5.20892C17.7269 3.37606 15.3027 2.21242 12.6287 1.85284L12.8992 0ZM19.0067 15.8765C18.1899 15.1024 17.1703 15.1024 16.3587 15.8765C15.7397 16.4658 15.1206 17.0551 14.5119 17.6544C14.3455 17.8192 14.205 17.8542 14.0021 17.7443C13.8434 17.6612 13.6806 17.5844 13.5179 17.5076L13.5178 17.5075C13.27 17.3906 13.0224 17.2737 12.79 17.135C10.9952 16.0513 9.49174 14.6579 8.15996 13.0897C7.49927 12.3106 6.91142 11.4766 6.50044 10.5377C6.4172 10.3479 6.43281 10.2231 6.59408 10.0683C7.12433 9.57632 7.64313 9.0734 8.16356 8.5689L8.16361 8.56885L8.42527 8.3153C9.27324 7.49625 9.27324 6.53737 8.42007 5.71334C8.17816 5.4786 7.93625 5.24637 7.69434 5.01413C7.45244 4.78191 7.21054 4.54969 6.96864 4.31497C6.80217 4.15515 6.63627 3.99478 6.47038 3.83441C6.13859 3.51368 5.8068 3.19294 5.47039 2.87664C4.65363 2.11254 3.63399 2.11254 2.82244 2.88164C2.57266 3.11742 2.32706 3.3556 2.08162 3.59363L2.08161 3.59363C1.7136 3.95051 1.34597 4.30703 0.965228 4.65457C0.377372 5.18895 0.0808427 5.84318 0.0184155 6.60729C-0.0804275 7.85084 0.236911 9.02447 0.684305 10.1681C1.5999 12.5354 2.99411 14.6379 4.68485 16.5657C6.96864 19.1726 9.69463 21.2352 12.8836 22.7235C14.3194 23.3927 15.8073 23.9071 17.4252 23.992C18.5385 24.0519 19.5061 23.7823 20.2812 22.9482C20.63 22.574 21.0079 22.2214 21.3856 21.8691L21.3856 21.8691L21.3858 21.8689C21.5827 21.6852 21.7795 21.5016 21.972 21.3151C22.8043 20.5061 22.8095 19.5272 21.9824 18.7281C20.9939 17.7743 20.0003 16.8254 19.0067 15.8765ZM18.013 11.8961L19.9327 11.5815C19.631 9.88846 18.7986 8.35525 17.5344 7.13667C16.1975 5.85317 14.5067 5.04412 12.6443 4.79441L12.3738 6.64725C13.8148 6.84202 15.1258 7.46629 16.161 8.46013C17.1391 9.39903 17.7789 10.5876 18.013 11.8961Z" fill="#FFFDFD"/>
+            </svg> (xx) xxxx-xxxx</p></li>
+            <li><p>
+              <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.5 2.16221C15.8376 2.16221 16.2329 2.1744 17.551 2.23213C18.7698 2.28553 19.4316 2.48102 19.8721 2.64531C20.4556 2.863 20.872 3.12308 21.3094 3.54297C21.7468 3.96287 22.0177 4.36266 22.2444 4.92274C22.4156 5.34564 22.6192 5.98103 22.6749 7.15097C22.735 8.41637 22.7477 8.79587 22.7477 12C22.7477 15.2042 22.735 15.5837 22.6749 16.849C22.6192 18.019 22.4156 18.6544 22.2444 19.0773C22.0177 19.6374 21.7468 20.0372 21.3094 20.4571C20.872 20.877 20.4556 21.137 19.8721 21.3547C19.4316 21.519 18.7698 21.7145 17.551 21.7679C16.2331 21.8256 15.8378 21.8378 12.5 21.8378C9.16212 21.8378 8.7668 21.8256 7.44893 21.7679C6.23019 21.7145 5.56832 21.519 5.12786 21.3547C4.54439 21.137 4.12794 20.877 3.69055 20.4571C3.25316 20.0372 2.98224 19.6374 2.75553 19.0773C2.58435 18.6544 2.38071 18.019 2.32509 16.8491C2.26495 15.5837 2.25225 15.2042 2.25225 12C2.25225 8.79587 2.26495 8.41637 2.32509 7.15102C2.38071 5.98103 2.58435 5.34564 2.75553 4.92274C2.98224 4.36266 3.25316 3.96287 3.69055 3.54297C4.12794 3.12308 4.54439 2.863 5.12786 2.64531C5.56832 2.48102 6.23019 2.28553 7.44888 2.23213C8.767 2.1744 9.16232 2.16221 12.5 2.16221ZM12.5 0C9.10515 0 8.67952 0.0138139 7.34627 0.0722133C6.01574 0.130517 5.10712 0.333343 4.31198 0.630008C3.48999 0.936676 2.79289 1.347 2.09798 2.01411C1.40307 2.68123 0.975655 3.35044 0.656209 4.13954C0.347183 4.90288 0.135906 5.77516 0.0751725 7.05246C0.0143398 8.33234 0 8.741 0 12C0 15.2591 0.0143398 15.6677 0.0751725 16.9476C0.135906 18.2249 0.347183 19.0972 0.656209 19.8605C0.975655 20.6496 1.40307 21.3188 2.09798 21.9859C2.79289 22.6531 3.48999 23.0634 4.31198 23.37C5.10712 23.6667 6.01574 23.8695 7.34627 23.9278C8.67952 23.9862 9.10515 24 12.5 24C15.8948 24 16.3205 23.9862 17.6537 23.9278C18.9842 23.8695 19.8928 23.6667 20.688 23.37C21.51 23.0634 22.2071 22.6531 22.902 21.9859C23.5969 21.3188 24.0243 20.6496 24.3437 19.8605C24.6528 19.0972 24.864 18.2249 24.9248 16.9476C24.9856 15.6677 25 15.2591 25 12C25 8.741 24.9856 8.33234 24.9248 7.05246C24.864 5.77516 24.6528 4.90288 24.3437 4.13954C24.0243 3.35044 23.5969 2.68123 22.902 2.01411C22.2071 1.347 21.51 0.936676 20.688 0.630008C19.8928 0.333343 18.9842 0.130517 17.6537 0.0722133C16.3205 0.0138139 15.8948 0 12.5 0ZM12.5 5.83784C8.95491 5.83784 6.08104 8.59676 6.08104 12C6.08104 15.4033 8.95491 18.1622 12.5 18.1622C16.045 18.1622 18.9189 15.4033 18.9189 12C18.9189 8.59676 16.045 5.83784 12.5 5.83784ZM12.5 16C10.1988 16 8.33328 14.2091 8.33328 12C8.33328 9.7909 10.1988 8 12.5 8C14.8011 8 16.6667 9.7909 16.6667 12C16.6667 14.2091 14.8011 16 12.5 16ZM20.6725 5.59438C20.6725 6.38968 20.001 7.03441 19.1725 7.03441C18.3441 7.03441 17.6725 6.38968 17.6725 5.59438C17.6725 4.79909 18.3441 4.15441 19.1725 4.15441C20.001 4.15441 20.6725 4.79909 20.6725 5.59438Z" fill="#FFFEFE"/>
+              </svg> @Libras & Paixão
+            </p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
